@@ -1,0 +1,366 @@
+/* styles.css 
+   Project: 
+   Author: 
+   Date: 
+*/
+
+/*google font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@300;400&display=swap');
+
+/*main css*/
+
+
+* {
+   box-sizing: border-box;
+}
+
+img, video {
+   width: 100%;
+   display: block;
+}
+
+body {
+   background-color: white;
+   font-family: 'Lato', sans-serif;
+   /*font-family: 'Montserrat', sans-serif;*/
+}
+
+.header {
+   width: 80%;
+   height: 100vh;
+   margin: auto;
+   display: grid;
+   align-items: center;
+}
+
+.explainer {
+   height: 100vh;
+   display: grid;
+   align-items: center;
+   padding-top: 35%;
+   padding-bottom: 55%;
+
+}
+
+.explainertext {
+   text-align: justify;
+   width: 80%;
+   margin: auto;
+
+}
+
+.scan {
+   position: relative;
+}
+
+.highlight {
+   position: absolute;
+   background-color: rgba(255, 255, 0, 0.6);
+   cursor: pointer;
+}
+
+.PhotoIcon {
+   width: 2vw;
+   position:  absolute;
+   cursor: pointer;
+}
+
+.SoundIcon {
+   width: 2vw;
+   position:  absolute;
+   cursor: pointer;
+}
+
+.concluder {
+   height: 100vh;
+   display: grid;
+   align-items: center;
+}
+
+.concludertext {
+   text-align: justify;
+   width: 80%;
+   margin: auto;
+   font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.thank {
+   width: 5%;
+   position: relative;
+   margin: auto;
+   display: grid;
+   align-items: center;
+
+}
+
+.end {
+   width: 10%;
+   height: 30vh;
+   margin: auto;
+   display: grid;
+   align-items: center;
+
+}
+
+.author {
+   width: 10%;
+   height: 30vh;
+   margin: auto;
+   display: grid;
+   align-items: center;
+}
+
+
+.lead {
+   column-count:2;
+   column-gap: 20px;
+   width: 60%;
+   margin: auto;
+   text-align: justify;
+   padding-top: 45%;
+   font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.lead p {
+   display: inline-block;
+}
+
+.intro {
+   width: 90%;
+   height: 100vh;
+   margin: auto;
+   display: grid;
+   align-items: center;
+   padding: 10%;
+}
+
+.intro2 {
+   width: 95%;
+   height: 100vh;
+   margin: auto;
+   display: grid;
+   align-items: center;
+   padding: 10%;
+}
+
+
+
+/*sound icon stuff will go here*/
+
+
+.one {
+   width: 18vw;
+   height: 3vw;
+   left: 23%;
+   top: 30%;
+}
+
+.two {
+   left: 58%;
+   top: 10%;
+}
+
+.three {
+   left: 50%;
+   top: 60%;
+}
+
+.four {
+   width: 28vw;
+   height: 3vw;
+   left: 23%;
+   top: 52%;
+}
+
+.five {
+   width: 29vw;
+   height: 3vw;
+   left: 56%;
+   top: 75%;
+}
+
+.six {
+   width: 15vw;
+   height: 3vw;
+   left: 26%;
+   top: 44%;
+}
+
+.seven {
+   left: 38%;
+   top: 29%;
+}
+
+.eight {
+   left: 27%;
+   top: 31%;
+}
+
+.nine {
+   left: 28%;
+   top: 25.5%;
+}
+
+.ten {
+   left: 67%;
+   top: 69.5%;
+}
+
+.eleven {
+   left: 81%;
+   top: 48%;
+}
+
+.twelve {
+   left: 47%;
+   top: 25%;
+}
+
+.thirteen {
+   left: 38%;
+   top: 62%;
+/*   height: 20%;*/
+}
+
+.fourteen {
+   left: 60%;
+   top: 69.5%;
+}
+
+.fifteen {
+   left: 79%;
+   top: 75%;
+}
+
+.sixteen {
+   left: 58%;
+   top: 72%;
+}
+
+.seventeen {
+   left: 61%;
+   top: 58.5%;
+}
+
+
+.eighteen {
+   left: 86.5%;
+   top: 54%;
+}
+
+.nineteen {
+   left: 55%;
+   top: 44.5%;
+}
+
+.twenty {
+   left: 46%;
+   top: 13.5%;
+}
+
+.twentyone {
+   left: 80%;
+   top: 12%;
+}
+
+.twentytwo {
+   left: 41.8%;
+   top: 78.2%;
+}
+
+/*.twentythree {
+   left: 50%;
+   top: 12%;
+}*/
+
+
+
+
+.sound p {
+   background-color: white;
+   border-radius: 30px;
+   padding: 20px;
+}
+
+
+
+.overlay {
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   background-color: rgba(0, 0, 0, 0.8);
+   display: none; 
+   overflow: scroll;
+}
+
+.modal {
+   width: 80%;
+   margin: 10vh auto;
+   background-color: white;
+   padding: 40px 80px;
+   position: relative;
+   font-family: "Lucida Console", "Courier New", monospace;
+   font-style: italic;
+   text-align: justify;
+}
+
+.modal audio {
+   width: 100%;
+}
+
+
+.tall img {
+  width: 60%;
+  margin: auto; 
+}
+
+.sound {
+   background-color: transparent;
+}
+
+.closer {
+   width: 13px;
+   position: absolute;
+   top: -20px;
+   right: -20px;
+   background-color: white;
+   border: 1px solid black;
+   cursor: pointer;
+}
+
+
+
+
+
+/*media query for responsive design */
+
+@media only screen and (max-width: 640px) {
+
+   .lead {
+       column-count:1;
+       width: 80%;
+   }
+
+   .modal {
+      padding: 40px 40px;
+   }
+
+   .tall img {
+     width: 100%;
+   }
+
+}
+
+
+
+
+
+
+
+
+
+
+
